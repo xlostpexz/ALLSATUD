@@ -951,7 +951,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remotes.Server:InvokeServer(unpack(args))
-end
 local args = {
     [1] = "Code",
     [2] = "owouch"
