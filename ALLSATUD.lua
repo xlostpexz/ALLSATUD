@@ -952,6 +952,13 @@ local args = {
 
 game:GetService("ReplicatedStorage").Remotes.Server:InvokeServer(unpack(args))
 end
+local args = {
+    [1] = "Code",
+    [2] = "owouch"
+}
+
+game:GetService("ReplicatedStorage").Remotes.Server:InvokeServer(unpack(args))
+end
     end)
 
     Home:CreateButton("Summon Em 10 Time",function(value)
